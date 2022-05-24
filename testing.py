@@ -8,10 +8,15 @@ from activation import ReLU,Softmax
 a=[1,2,-3,5,-3,45,0]
 b=[[1,2,-3,5,-3,45,0]]
 
-x=ReLU()
-x.forward(a)
-y=Softmax()
-y.forward(b)
+softmax_output=[[.2,.3,.7],[.3,.2,.5],[.2,.7,.3]]
 
-print(x.output)
-print(y.output)
+
+
+
+# x=ReLU()
+# x.forward(a)
+# y=Softmax()
+# y.forward(b)
+
+# print(x.output)
+# print(y.output)
